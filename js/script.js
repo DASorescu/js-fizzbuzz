@@ -3,12 +3,12 @@
 // gestire con il ciclo if else se un numero e divisibile per 3 per 5 o per entrambi 
 // cambiare in quel caso l'output a seconda se e divisibile per 3 per 5 o entrambi 
 
-// #definisco le variabili da usare per i criteri di divisibilita'
+// #VARIABLES DEFINITION 
 const div5 = 5;
 const div3 = 3;
 let numString = "<ul>";
 const blackboard = document.getElementById("board")
-// # ciclo for 
+// #  for CICLE
 for(let i = 1 ; i <= 100 ; i++){
     
     // condizione di divisibilita'
@@ -24,7 +24,8 @@ for(let i = 1 ; i <= 100 ; i++){
 
     
 }
+// COMPLETE THE NUMBER STRING
 numString += "</ul>";
 console.log(numString);
-
+// //  PAGE VISUALIZATION
 blackboard.innerHTML = numString;

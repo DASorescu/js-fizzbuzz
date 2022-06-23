@@ -1,15 +1,19 @@
 
-body{
-    font-family: 'Fascinate Inline', cursive;
-}
-
-
+/* UTILS */
 .bg-gray{
     background-color: rgb(66, 49, 135);
+
+
+}
+/* GENERICS */
+body{
+    font-family: 'Fascinate Inline', cursive;
 }
 h1{
     color: rgb(255, 255, 255);
 }
+
+/* LIST RULES */
 ul{
     padding-left: 0;
     display: flex;
@@ -35,7 +39,7 @@ li{
     background-color: rgb(206, 142, 238);
     border-radius: 10%;
 }
-
+/* BOARD RULES */
 #board{
     padding: 1rem 2rem;
     width: 100%;
@@ -43,7 +47,7 @@ li{
     
     
 }
-
+/* PARTICULAR LIST ITEMS RULES  */
 #fb{
     border-radius: 50%;
     background-color: fuchsia;
