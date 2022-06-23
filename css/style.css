@@ -1,0 +1,61 @@
+
+body{
+    font-family: 'Fascinate Inline', cursive;
+}
+
+
+.bg-gray{
+    background-color: rgb(66, 49, 135);
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    font-size: 23px;
+    color: #000;
+    
+    height: 110px;
+    width: 110px;
+
+    margin:5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(206, 142, 238);
+    border-radius: 10%;
+}
+
+#board{
+    padding: 1rem 2rem;
+    width: 100%;
+    
+    
+    
+}
+
+#fb{
+    border-radius: 50%;
+    background-color: fuchsia;
+}
+
+#f{
+    border-radius: 20%;
+    background-color: rgb(81, 226, 231);
+}
+#b{
+    border-radius: 20%;
+    background-color: rgb(32, 175, 218);
+}
+
+    
